@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
   [SerializeField] private float maxSpeed = 10f;                    // The fastest the player can travel in the x axis.
     [SerializeField] private float jumpForce = 400f;                  // Amount of force added when the player jumps.
+
+    [SerializeField] private bool doubleJump = false;
     [SerializeField] private bool airControl = false;                 // Whether or not a player can steer while jumping;
     [SerializeField] private LayerMask whatIsGround;                  // A mask determining what is ground to the character
 
@@ -76,13 +78,29 @@ public class Player : MonoBehaviour
             }
         }
         // If the player should jump...
-        if (grounded && jump )
+        if (jump)
         {
-            // Add a vertical force to the player.
-            grounded = false;
-            anim.SetBool("Ground", false);
-            rigidbody2D.AddForce(new Vector2(0f, jumpForce));
-            //SoundManager.instance.PlaySingle(jumpSound);
+            if (grounded  )
+            {
+                // Add a vertical force to the player.
+        
+                //grounded = false;
+                //anim.SetBool("Ground", false);
+                
+                
+                rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+                doubleJump = true;
+                //SoundManager.instance.PlaySingle(jumpSound);
+            }
+            else
+            {
+                if (doubleJump)
+                {
+                    doubleJump = false;
+                    rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
+                    rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+                }
+            }
         }
     }
 
