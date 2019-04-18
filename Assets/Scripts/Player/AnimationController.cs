@@ -16,18 +16,14 @@ public class AnimationController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.LeftShift))
+        this._animator.SetFloat("walking_speed",Input.GetAxis("Horizontal"));
+        
+        if (Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.LeftShift))
         {
             this._animator.SetBool("running",true);
-            this._animator.SetBool("walking",false);
-        }
-        else if (Input.GetKey(KeyCode.W))
-        {
-            this._animator.SetBool("walking",true);
         }
         else
         {
-            this._animator.SetBool("walking",false);
             this._animator.SetBool("running",false);
         }
 
@@ -45,7 +41,6 @@ public class AnimationController : MonoBehaviour
             this._animator.SetBool("glide",false);
         }
 
-        
         
         if (Input.GetKeyUp(KeyCode.Space))
         {

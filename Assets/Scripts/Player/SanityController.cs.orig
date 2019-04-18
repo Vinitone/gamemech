@@ -54,6 +54,11 @@ public class SanityController : MonoBehaviour
     // Update is called once per framewwww
     void Update()
     {
+<<<<<<< HEAD
+        //this._vignette.intensity.SetValue()
+      
+        Debug.Log("test");
+=======
         if (!this._enabled)
         {
             return;
@@ -67,5 +72,6 @@ public class SanityController : MonoBehaviour
         this._vignette.intensity.value = this._shadeModifier * (100f - this._sanity);
 
         this._lastKnowSanity = this._sanity;
+>>>>>>> origin/feature/player-animation
     }
 }

@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9f9936-df0a-4959-90ec-cff901169180" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/airial.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/airial.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/glide.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/glide.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/jump.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/jump.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/landing.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/landing.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/running.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/running.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/walking.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/walking.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +22,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="435">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               <folding>
-                <marker date="1555546322096" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555546322096" expanded="true" signature="169:829" ph="{...}" />
-                <marker date="1555546322096" expanded="true" signature="428:651" ph="{...}" />
-                <marker date="1555546322096" expanded="true" signature="709:827" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="6:78" ph="..." />
+                <marker date="1555548999207" expanded="true" signature="169:1669" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="669:1293" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="872:947" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="1066:1287" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="1355:1667" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="1389:1429" ph="{...}" />
+                <marker date="1555548999207" expanded="true" signature="1480:1520" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+              <folding>
+                <marker date="1555597395268" expanded="true" signature="6:78" ph="..." />
+                <marker date="1555597395268" expanded="true" signature="128:1190" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="258:326" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="384:1188" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="549:621" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="634:707" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="753:820" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="905:975" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="988:1059" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="1112:1182" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,11 +64,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nu</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@2.1.6/PostProcessing/Runtime/Effects/Vignette.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@2.1.6/PostProcessing/Runtime/ParameterOverride.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +84,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerEconomy.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
       </list>
     </option>
   </component>
@@ -169,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555523971713</updated>
       <workItem from="1555523980212" duration="1245000" />
-      <workItem from="1555533936409" duration="6469000" />
+      <workItem from="1555533936409" duration="11933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7714000" />
+    <option name="totallyTimeSpent" value="13178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,15 +267,76 @@
     <entry file="file://$PROJECT_DIR$/Assets/SanityController.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@2.1.6/PostProcessing/Runtime/ParameterOverride.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="188" column="44" lean-forward="true" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.postprocessing@2.1.6/PostProcessing/Runtime/Effects/Vignette.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <marker date="1555094720521" expanded="true" signature="61:5134" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="68:166" ph="/// A list of available render modes for the Vignette effect. ... " />
+            <marker date="1555094720521" expanded="true" signature="195:534" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="210:350" ph="/// This mode offers parametric controls for the position, shape and intensity of the Vignette. ... " />
+            <marker date="1555094720521" expanded="true" signature="377:513" ph="/// This mode multiplies a custom texture mask over the screen to create a Vignette effect. ... " />
+            <marker date="1555094720521" expanded="true" signature="540:643" ph="/// A volume parameter holding a &lt;see cref=&quot;VignetteMode&quot;/&gt; value. ... " />
+            <marker date="1555094720521" expanded="true" signature="751:842" ph="/// This class holds settings for the Vignette effect. ... " />
+            <marker date="1555094720521" expanded="true" signature="984:3832" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="999:1151" ph="/// Use the \&quot;Classic\&quot; mode for parametric controls. Use the \&quot;Masked\&quot; mode to use your own texture mask. ... " />
+            <marker date="1555094720521" expanded="true" signature="1390:1477" ph="/// The color to use to tint the vignette. ... " />
+            <marker date="1555094720521" expanded="true" signature="1620:1736" ph="/// Sets the vignette center point (screen center is &lt;c&gt;[0.5,0.5]&lt;/c&gt;). ... " />
+            <marker date="1555094720521" expanded="true" signature="1928:2012" ph="/// The amount of vignetting on screen. ... " />
+            <marker date="1555094720521" expanded="true" signature="2167:2255" ph="/// The smoothness of the vignette borders. ... " />
+            <marker date="1555094720521" expanded="true" signature="2420:2514" ph="/// Lower values will make a square-ish vignette. ... " />
+            <marker date="1555094720521" expanded="true" signature="2683:2815" ph="/// Should the vignette be perfectly round or be dependent on the current aspect ratio? ... " />
+            <marker date="1555094720521" expanded="true" signature="3043:3136" ph="/// A black and white mask to use as a vignette. ... " />
+            <marker date="1555094720521" expanded="true" signature="3290:3352" ph="/// Mask opacity. ... " />
+            <marker date="1555094720521" expanded="true" signature="3590:3826" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="3984:5132" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="4060:5126" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="4301:4788" ph="{...}" />
+            <marker date="1555094720521" expanded="true" signature="4815:5116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding>
-            <marker date="1555546322096" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555546322096" expanded="true" signature="169:829" ph="{...}" />
-            <marker date="1555546322096" expanded="true" signature="428:651" ph="{...}" />
-            <marker date="1555546322096" expanded="true" signature="709:827" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="6:78" ph="..." />
+            <marker date="1555548999207" expanded="true" signature="169:1669" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="669:1293" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="872:947" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="1066:1287" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="1355:1667" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="1389:1429" ph="{...}" />
+            <marker date="1555548999207" expanded="true" signature="1480:1520" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <marker date="1555597395268" expanded="true" signature="6:78" ph="..." />
+            <marker date="1555597395268" expanded="true" signature="128:1190" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="258:326" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="384:1188" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="549:621" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="634:707" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="753:820" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="905:975" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="988:1059" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="1112:1182" ph="{...}" />
           </folding>
         </state>
       </provider>
