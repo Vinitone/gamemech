@@ -47,4 +47,5 @@ public class AnimationController : MonoBehaviour
             this._animator.SetTrigger("landing");
         }
     }
+
 }
