@@ -16,7 +16,6 @@ public class Player : MonoBehaviour
     [SerializeField]
     public Stat stamina;
 
-    [SerializeField ]private Transform playerCollider;    // A position marking where to check if the player is grounded.
     const float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     public bool grounded;            // Whether or not the player is grounded.
     const float k_CeilingRadius = .01f; // Radius of the overlap circle to determine if the player can stand up
@@ -42,11 +41,11 @@ public class Player : MonoBehaviour
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
         // This can be done using layers instead but Sample Assets will not overwrite your project settings.
         Physics2D.queriesStartInColliders = false;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1.2f, whatIsGround);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 4.5f, whatIsGround);
         if(hit.collider != null)
         { grounded = true; }
         anim.SetBool("Ground", grounded);
-        anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
+        stamina.Regen(1,1);
     }
 
 
@@ -55,8 +54,13 @@ public class Player : MonoBehaviour
         //only control the player if grounded or airControl is turned on
         if (grounded || airControl)
         {
-            anim.SetFloat("Speed", Mathf.Abs(move));
-            anim.SetBool("Run", run);
+            anim.SetFloat("Walk", Mathf.Abs(move));
+            anim.SetBool("running", run);
+
+            if(run)
+            {
+                stamina.Drain(.1f, 1);
+            }
             // Move the character
  
             if (run && grounded)
@@ -84,8 +88,8 @@ public class Player : MonoBehaviour
             {
                 // Add a vertical force to the player.
         
-                //grounded = false;
-                //anim.SetBool("Ground", false);
+                grounded = false;
+                anim.SetTrigger("jump");
                 
                 
                 rigidbody2D.AddForce(new Vector2(0f, jumpForce));
@@ -97,6 +101,7 @@ public class Player : MonoBehaviour
                 if (doubleJump)
                 {
                     doubleJump = false;
+                    anim.SetTrigger("jump");
                     rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 0);
                     rigidbody2D.AddForce(new Vector2(0f, jumpForce));
                 }
@@ -113,5 +118,13 @@ public class Player : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        // Draws a 5 unit long red line in front of the object
+        Gizmos.color = Color.red;
+        Vector3 direction = transform.TransformDirection(Vector3.forward) * 5;
+        Gizmos.DrawRay(transform.position, Vector2.down);
     }
 }

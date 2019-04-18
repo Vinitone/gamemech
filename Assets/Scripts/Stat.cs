@@ -71,4 +71,13 @@ public class Stat{
         }
     }
 
+    public void Drain(float drainTimer, float drainAmount)
+    {
+
+        if (t <= Time.time)
+        {
+            CurrentVal -= drainAmount;
+            t = Time.time + drainTimer;
+        }
+    }
 }

@@ -25,7 +25,7 @@ public class SanityController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this._vignette.intensity.SetValue()
+        //this._vignette.intensity.SetValue()
       
         Debug.Log("test");
     }
