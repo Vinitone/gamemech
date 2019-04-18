@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be9f9936-df0a-4959-90ec-cff901169180" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png.meta" beforeDir="false" />
     </list>
