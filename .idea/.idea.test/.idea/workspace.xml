@@ -5,16 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AnimationController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/glide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/glide.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Idle.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Player.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerEconomy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessing/TheShade.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcessing/TheShade.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/test.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/test.png.meta" beforeDir="false" />
     </list>
@@ -48,20 +44,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
-                <marker date="1555541088899" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555541088899" expanded="true" signature="128:1332" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="258:326" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="384:1330" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="462:587" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="629:701" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="714:840" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="886:953" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="1038:1108" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="1121:1192" ph="{...}" />
-                <marker date="1555541088899" expanded="true" signature="1254:1324" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="6:78" ph="..." />
+                <marker date="1555597395268" expanded="true" signature="128:1190" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="258:326" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="384:1188" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="549:621" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="634:707" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="753:820" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="905:975" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="988:1059" ph="{...}" />
+                <marker date="1555597395268" expanded="true" signature="1112:1182" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,6 +84,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerEconomy.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimationController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SanityController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs" />
       </list>
     </option>
   </component>
@@ -188,12 +184,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555523971713</updated>
       <workItem from="1555523980212" duration="1245000" />
-      <workItem from="1555533936409" duration="9945000" />
+      <workItem from="1555533936409" duration="11334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11190000" />
+    <option name="totallyTimeSpent" value="12579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,20 +324,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/AnimationController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
           <folding>
-            <marker date="1555541088899" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555541088899" expanded="true" signature="128:1332" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="258:326" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="384:1330" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="462:587" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="629:701" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="714:840" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="886:953" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="1038:1108" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="1121:1192" ph="{...}" />
-            <marker date="1555541088899" expanded="true" signature="1254:1324" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="6:78" ph="..." />
+            <marker date="1555597395268" expanded="true" signature="128:1190" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="258:326" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="384:1188" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="549:621" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="634:707" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="753:820" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="905:975" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="988:1059" ph="{...}" />
+            <marker date="1555597395268" expanded="true" signature="1112:1182" ph="{...}" />
           </folding>
         </state>
       </provider>
